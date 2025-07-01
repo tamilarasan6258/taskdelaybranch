@@ -325,6 +325,9 @@ goToChartSummary(selectedChart: string) {
   } else if (selectedChart === 'highcharts') {
     targetRoute = '/highcharts-summary';
   }
+   else if (selectedChart === 'democharts') {
+    targetRoute = '/democharts-summary';
+  }
 
   if (targetRoute) {
     this.router.navigate([`${targetRoute}/${this.projectId}`], {

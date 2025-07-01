@@ -1,0 +1,7 @@
+.charts-container {
+  padding: 16px;
+}
+
+canvas, div {
+  margin-bottom: 32px;
+}
